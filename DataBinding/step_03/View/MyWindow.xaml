@@ -7,9 +7,22 @@
         mc:Ignorable="d"
         Title="MyWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/> <!-- Для TextBox -->
+            <RowDefinition Height="*"/>    <!-- Для DataGrid -->
+        </Grid.RowDefinitions>
+        
         <TextBox 
             x:Name="IdTextBox" 
-            Text="{Binding SportsmenID, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}">
+            Text="{Binding SportsmenId, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"
+            Grid.Row="0"
+            >
         </TextBox>
+        
+        <DataGrid
+            ItemsSource="{Binding Achievements}"
+            Grid.Row="1"
+            >
+        </DataGrid>
     </Grid>
 </Window>

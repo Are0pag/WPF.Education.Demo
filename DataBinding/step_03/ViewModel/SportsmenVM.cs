@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
@@ -13,7 +14,7 @@ namespace Demo.DataBinding.step_03
             _sportsmen.PropertyChanged += (o, e) => OnPropertyChanged(e.PropertyName);
         }
 
-        public string SportsmenID {
+        public string SportsmenId {
             get => _sportsmen.SportsmenID;
             set {
                 if (_sportsmen.SportsmenID != value) {
@@ -25,7 +26,9 @@ namespace Demo.DataBinding.step_03
 
         public ObservableCollection<Achievements> Achievements {
             get => _sportsmen.Achievements;
-            // ....
+            set {
+                _sportsmen.Achievements = value;
+            }
         }
         
         public event PropertyChangedEventHandler? PropertyChanged;

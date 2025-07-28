@@ -29,6 +29,7 @@ namespace Demo.DataBinding.step_03
                                       while (true) {
                                           Task.Delay(1000).Wait();
                                           SportsmenID += "0";
+                                          Achievements[0].EpicName += "+";
                                       }
                                   });
         }
@@ -38,12 +39,5 @@ namespace Demo.DataBinding.step_03
         protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null) {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-    }
-
-    public class Achievements
-    {
-        public string EpicName { get; set; }
-        public int EpicNumber { get; set; }
-        public float Score { get; set; }
     }
 }
