@@ -11,7 +11,7 @@ namespace Demo
         public MainWindow()
         {
             InitializeComponent();
-            new MyWindow(new SportsmenVM(new Sportsmen {SportsmenID = "tuy 20.4445"})).Show();
+            new MyWindow(new SportsmenVm(new Sportsmen {SportsmenID = "tuy 20.4445"})).Show();
             Close();
         }
     }

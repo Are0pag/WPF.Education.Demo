@@ -7,7 +7,7 @@ namespace Demo.DataBinding.step_03
     /// </summary>
     public partial class MyWindow : Window
     {
-        public MyWindow(SportsmenVM sportsmenVM) {
+        public MyWindow(SportsmenVm sportsmenVM) {
             InitializeComponent();
             DataContext = sportsmenVM;
         }
