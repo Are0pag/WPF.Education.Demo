@@ -10,7 +10,6 @@ namespace Demo.DataBinding.step_01
         public MyWindow()
         {
             InitializeComponent();
-            // better way is to set this in .xaml
             // DataContext = new ModelClass();
         }
     }

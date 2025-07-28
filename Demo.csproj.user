@@ -5,5 +5,11 @@
     <Compile Update="DataBinding\step_01\MyWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DataBinding\step_02\MyWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataBinding\step_03\MyWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
