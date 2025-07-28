@@ -9,39 +9,30 @@ namespace Demo.DataBinding.step_03
         private int _epicNumber;
         private float _score;
 
-        public string EpicName
-        {
+        public string EpicName {
             get => _epicName;
-            set
-            {
-                if (_epicName != value)
-                {
+            set {
+                if (_epicName != value) {
                     _epicName = value;
                     OnPropertyChanged();
                 }
             }
         }
 
-        public int EpicNumber
-        {
+        public int EpicNumber {
             get => _epicNumber;
-            set
-            {
-                if (_epicNumber != value)
-                {
+            set {
+                if (_epicNumber != value){
                     _epicNumber = value;
                     OnPropertyChanged();
                 }
             }
         }
 
-        public float Score
-        {
+        public float Score {
             get => _score;
-            set
-            {
-                if (!_score.Equals(value))
-                {
+            set {
+                if (!_score.Equals(value)) {
                     _score = value;
                     OnPropertyChanged();
                 }
@@ -50,8 +41,7 @@ namespace Demo.DataBinding.step_03
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
-        {
+        protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null) {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
