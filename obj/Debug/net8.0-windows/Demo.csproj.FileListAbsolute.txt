@@ -23,3 +23,5 @@ D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\ref\Demo.dl
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_02\MyWindow.g.cs
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_02\MyWindow.baml
+D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_03\View\MyWindow.g.cs
+D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_03\View\MyWindow.baml

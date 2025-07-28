@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MyWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox 
+            x:Name="IdTextBox" 
+            Text="{Binding SportsmenID, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}">
+        </TextBox>
     </Grid>
 </Window>

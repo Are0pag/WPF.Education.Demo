@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using Demo.DataBinding.step_02;
+using Demo.DataBinding.step_03;
 
 namespace Demo
 {
@@ -11,7 +11,7 @@ namespace Demo
         public MainWindow()
         {
             InitializeComponent();
-            new MyWindow(new ModelClass()).Show();
+            new MyWindow(new SportsmenVM(new Sportsmen {SportsmenID = "tuy 20.4445"})).Show();
             Close();
         }
     }
