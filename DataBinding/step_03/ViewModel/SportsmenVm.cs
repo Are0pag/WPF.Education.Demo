@@ -19,15 +19,16 @@ namespace Demo.DataBinding.step_03
         public ObservableCollection<Achievements> Achievements {
             get => _sportsmen.Achievements;
             set {
-                if (_sportsmen.Achievements != value) {
-                    // Отписываемся от старой коллекции
-                    _sportsmen.Achievements.CollectionChanged -= OnAchievementsCollectionChanged;
-                    _sportsmen.Achievements = value;
+                if (_sportsmen.Achievements == value)
+                    return;
                 
-                    // Подписываемся на новую коллекцию
-                    _sportsmen.Achievements.CollectionChanged += OnAchievementsCollectionChanged;
-                    OnPropertyChanged();
-                }
+                // Отписываемся от старой коллекции
+                _sportsmen.Achievements.CollectionChanged -= OnAchievementsCollectionChanged;
+                _sportsmen.Achievements = value;
+                
+                // Подписываемся на новую коллекцию
+                _sportsmen.Achievements.CollectionChanged += OnAchievementsCollectionChanged;
+                OnPropertyChanged();
             }
         }
 
