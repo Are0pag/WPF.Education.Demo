@@ -21,8 +21,14 @@
         
         <DataGrid
             ItemsSource="{Binding Achievements}"
+            AutoGenerateColumns="False"
             Grid.Row="1"
             >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Epic Name" Binding="{Binding EpicName, Mode=OneWay}"/>
+                <DataGridTextColumn Header="Epic Number" Binding="{Binding EpicNumber, Mode=OneWay}"/>
+                <DataGridTextColumn Header="Score" Binding="{Binding Score, Mode=OneWay}"/>
+            </DataGrid.Columns>
         </DataGrid>
     </Grid>
 </Window>

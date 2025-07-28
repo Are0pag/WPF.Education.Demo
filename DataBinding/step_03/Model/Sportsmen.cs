@@ -29,7 +29,7 @@ namespace Demo.DataBinding.step_03
                                       while (true) {
                                           Task.Delay(1000).Wait();
                                           SportsmenID += "0";
-                                          Achievements[0].EpicName += "+";
+                                          Achievements[0].EpicName += "0";
                                       }
                                   });
         }
