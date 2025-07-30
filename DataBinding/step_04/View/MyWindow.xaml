@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         
         <TextBox Grid.Row="0"
-                 Text="{Binding Perimeter, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                 Text="{Binding Perimeter.Value, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                  ></TextBox>
     </Grid>
 </Window>
