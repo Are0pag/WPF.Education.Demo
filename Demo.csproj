@@ -22,4 +22,10 @@
     </Compile>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataBinding\step_04\Model\" />
+    <Folder Include="DataBinding\step_04\ViewModel\" />
+    <Folder Include="DataBinding\step_04\View\" />
+  </ItemGroup>
+
 </Project>

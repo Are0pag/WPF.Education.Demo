@@ -1,6 +1,6 @@
 ﻿using System.Windows.Input;
 
-namespace Demo.DataBinding.step_03
+namespace Demo.DataBinding.step_04.Utils
 {
     public class RelayCommand : ICommand
     {

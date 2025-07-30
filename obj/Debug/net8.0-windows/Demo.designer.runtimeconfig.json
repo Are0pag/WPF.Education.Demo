@@ -14,7 +14,7 @@
     "additionalProbingPaths": [
       "C:\\Users\\Areopag\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Areopag\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "D:\\devEnvironment\\IDEs\\Microsoft\\VsCommunity\\Shared\\NuGetPackages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

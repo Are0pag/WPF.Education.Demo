@@ -1,17 +1,18 @@
 ﻿using System.Windows;
-using Demo.DataBinding.step_03;
+using Current = Demo.DataBinding.step_04;
 
 namespace Demo
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-            new MyWindow(new SportsmenVm(new Sportsmen {SportsmenID = "tuy 20.4445"})).Show();
+            new Current.View.MyWindow(
+                                      new Current.ViewModel.MyWindowVm(
+                                                                       new Current.Model.City()
+                                                                       )
+                                      ).Show();
             Close();
         }
     }

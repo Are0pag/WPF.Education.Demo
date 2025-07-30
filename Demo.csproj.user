@@ -8,7 +8,7 @@
     <Compile Update="DataBinding\step_02\MyWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="DataBinding\step_03\MyWindow.xaml.cs">
+    <Compile Update="DataBinding\step_04\View\MyWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

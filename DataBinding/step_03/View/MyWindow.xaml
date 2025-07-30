@@ -14,7 +14,7 @@
         
         <TextBox 
             x:Name="IdTextBox" 
-            Text="{Binding SportsmenId, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"
+            Text="{Binding SportsmenId, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
             Grid.Row="0"
             >
         </TextBox>
@@ -24,9 +24,10 @@
             AutoGenerateColumns="False"
             Grid.Row="1"
             >
+            <!-- В DataGrid UpdateSourceTrigger по умолчанию равен LostFocus. Это означает, что изменения в ячейке применяются только после выхода из неё (например, при нажатии Enter или переходе к другой ячейке).-->
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Epic Name" Binding="{Binding EpicName, Mode=OneWay}"/>
-                <DataGridTextColumn Header="Epic Number" Binding="{Binding EpicNumber, Mode=OneWay}"/>
+                <DataGridTextColumn Header="Epic Name" Binding="{Binding EpicName, Mode=OneTime}"/>
+                <DataGridTextColumn Header="Epic Number" Binding="{Binding EpicNumber, Mode=TwoWay}"/>
                 <DataGridTextColumn Header="Score" Binding="{Binding Score, Mode=OneWay}"/>
             </DataGrid.Columns>
         </DataGrid>

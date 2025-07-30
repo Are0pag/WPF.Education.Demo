@@ -7,6 +7,8 @@ namespace Demo.DataBinding.step_03
 {
     public class SportsmenVm : INotifyPropertyChanged
     {
+        protected readonly Sportsmen _sportsmen;
+
         public SportsmenVm(Sportsmen sportsmen) {
             _sportsmen = sportsmen;
             SubscribeOnModelEvent();
@@ -14,7 +16,7 @@ namespace Demo.DataBinding.step_03
         }
 
 
-        #region CollectionVm
+    #region CollectionVm
 
         public ObservableCollection<Achievements> Achievements {
             get => _sportsmen.Achievements;
@@ -42,11 +44,10 @@ namespace Demo.DataBinding.step_03
             OnPropertyChanged(nameof(Achievements));
         }
 
-        #endregion
+    #endregion
 
-        #region PropertyVm
+    #region PropertyVm
 
-        protected readonly Sportsmen _sportsmen;
         public string SportsmenId {
             get => _sportsmen.SportsmenID;
             set {
@@ -60,14 +61,13 @@ namespace Demo.DataBinding.step_03
         private void SubscribeOnModelEvent() {
             _sportsmen.PropertyChanged += (_, e) => OnPropertyChanged(e.PropertyName);
         }
+        
+    #endregion
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
         protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null) {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
-        #endregion
-        
     }
 }
