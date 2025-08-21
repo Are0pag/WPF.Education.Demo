@@ -33,7 +33,7 @@ namespace Demo.DataBinding.step_03
         }
 
         private void SubscribeOnCollectionChanged() {
-            _sportsmen.Achievements.CollectionChanged += (_, _) => {
+            _sportsmen.Achievements.CollectionChanged += (s, e) => {
                                                              OnPropertyChanged(nameof(Achievements));
                                                          };
         }

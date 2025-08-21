@@ -4,11 +4,9 @@ D:\development\Education\WPF\Demo\Demo\Demo\bin\Debug\net8.0-windows\Demo.runtim
 D:\development\Education\WPF\Demo\Demo\Demo\bin\Debug\net8.0-windows\Demo.dll
 D:\development\Education\WPF\Demo\Demo\Demo\bin\Debug\net8.0-windows\Demo.pdb
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_01\MyWindow.g.cs
-D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\App.g.cs
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo_MarkupCompile.cache
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo_MarkupCompile.lref
-D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\MainWindow.baml
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_01\MyWindow.baml
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo.g.resources
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo.GeneratedMSBuildEditorConfig.editorconfig
@@ -25,3 +23,4 @@ D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_02\MyWindow.baml
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_03\View\MyWindow.g.cs
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_03\View\MyWindow.baml
+D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo.sourcelink.json
