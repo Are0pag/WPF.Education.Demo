@@ -61,7 +61,7 @@ namespace Demo.DataBinding.step_03 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Demo;component/databinding/step_03/view/mywindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Demo;V1.0.0.0;component/databinding/step_03/view/mywindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\DataBinding\step_03\View\MyWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
