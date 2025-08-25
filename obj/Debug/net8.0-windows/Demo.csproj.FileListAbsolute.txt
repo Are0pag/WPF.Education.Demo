@@ -26,3 +26,7 @@ D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo.sourcelink.json
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_05\View\GridOfCompositeObjectsWindow.g.cs
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_05\View\GridOfCompositeObjectsWindow.baml
+D:\development\Education\WPF\Demo\Demo\Demo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\development\Education\WPF\Demo\Demo\Demo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo.csproj.AssemblyReference.cache
+D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo.csproj.Up2Date

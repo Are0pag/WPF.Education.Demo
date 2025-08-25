@@ -4,5 +4,8 @@ namespace Demo;
 
 public class StepFiveInstaller
 {
-    
+    public void InstallServices() {
+
+        
+    }
 }
