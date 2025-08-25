@@ -24,3 +24,5 @@ D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_03\View\MyWindow.g.cs
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_03\View\MyWindow.baml
 D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\Demo.sourcelink.json
+D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_05\View\GridOfCompositeObjectsWindow.g.cs
+D:\development\Education\WPF\Demo\Demo\Demo\obj\Debug\net8.0-windows\DataBinding\step_05\View\GridOfCompositeObjectsWindow.baml
