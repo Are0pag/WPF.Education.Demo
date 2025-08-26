@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\development\\Education\\WPF\\Demo\\Demo\\Demo\\Demo.csproj": {}
+    "D:\\development\\education\\WPF\\Demo\\Demo.csproj": {}
   },
   "projects": {
-    "D:\\development\\Education\\WPF\\Demo\\Demo\\Demo\\Demo.csproj": {
+    "D:\\development\\education\\WPF\\Demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\Education\\WPF\\Demo\\Demo\\Demo\\Demo.csproj",
+        "projectUniqueName": "D:\\development\\education\\WPF\\Demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "D:\\development\\Education\\WPF\\Demo\\Demo\\Demo\\Demo.csproj",
+        "projectPath": "D:\\development\\education\\WPF\\Demo\\Demo.csproj",
         "packagesPath": "C:\\Users\\Areopag\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\Education\\WPF\\Demo\\Demo\\Demo\\obj\\",
+        "outputPath": "D:\\development\\education\\WPF\\Demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\devEnvironment\\IDEs\\Microsoft\\VsCommunity\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Areopag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -74,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

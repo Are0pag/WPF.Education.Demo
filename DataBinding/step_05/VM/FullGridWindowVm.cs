@@ -5,14 +5,24 @@ namespace Demo;
 
 public class FullGridWindowVm
 {
-    public ObservableCollection<CompositeObject> CompositeObjects { get; set; } = new ObservableCollection<CompositeObject>();
+    public ObservableCollection<CompositeObject> CompositeObjects { get; set; } = new();
+    public ObservableCollection<CompositeObjectWithMvvmTools> CompositeObjectsWithMvvmTools { get; set; } = new();
 
     public FullGridWindowVm() {
         AddCompositeObjectCommand = new RelayCommand(CreateCommand);
     }
     public RelayCommand AddCompositeObjectCommand { get; set; }
     
+    
+    
     public void CreateCommand(object? value) {
+        AddToCompositeObjectsCollection();
+        CompositeObjectsWithMvvmTools.Add(new CompositeObjectWithMvvmTools(iq: "тупой", age: 22, new Health(healthStatus: "жирный", 125)));
+        CompositeObjectsWithMvvmTools.Add(new CompositeObjectWithMvvmTools(iq: "дебил", age: 34, new Health(healthStatus: "пассажирный", 277)));
+        CompositeObjectsWithMvvmTools.Add(new CompositeObjectWithMvvmTools(iq: "genious", age: 4, new Health(healthStatus: "доска", 11)));
+    }
+
+    private void AddToCompositeObjectsCollection() {
         CompositeObjects.Add(new CompositeObject() {
             Otchecnvo = "Ivanova",
             StringParams = new StringParams() {Name = "Alice", FullName = "AliceWonderland"},

@@ -13,12 +13,31 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="40"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        
+        <DataGrid Grid.Column="2" x:Name="ToolsDataGrid"
+                  ItemsSource="{Binding CompositeObjectsWithMvvmTools}"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="IQ" Binding="{Binding Iq.Value, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                <DataGridTextColumn Header="Age" Binding="{Binding Age.Value, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                <DataGridTextColumn Header="HStat" 
+                                    Binding="{
+                                            Binding Health.HealthStatus.Value, 
+                                            UpdateSourceTrigger=PropertyChanged, 
+                                            Mode=TwoWay}" />                
+                <DataGridTextColumn Header="HNum" 
+                                    Binding="{
+                                            Binding Health.Mass.Value, 
+                                            UpdateSourceTrigger=PropertyChanged, 
+                                            Mode=TwoWay}" />
+            </DataGrid.Columns>
+        </DataGrid>
         
         <DataGrid Grid.Column="0" x:Name="MyDataGrid"
                   ItemsSource="{Binding CompositeObjects}"
                   AutoGenerateColumns="False">
-            
             <DataGrid.Columns>
                 <DataGridTextColumn Header="OTEZ" Binding="{Binding Otchecnvo, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"  />
                 <DataGridTextColumn Header="Name" Binding="{Binding StringParams.Name, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"  />
@@ -30,7 +49,6 @@
                                                      UpdateSourceTrigger=PropertyChanged, 
                                                      Mode=TwoWay}" />
             </DataGrid.Columns>
-            
         </DataGrid>
         
         <Button Grid.Column="1" Command="{Binding AddCompositeObjectCommand}"></Button>

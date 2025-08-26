@@ -20,7 +20,7 @@ namespace Demo.DataBinding.step_03
                                           SportsmenID += "0";
                                           Achievements[0].EpicName += "0";
                                       }
-                                  });
+            });
         }
 
         private void InitCollection() {
